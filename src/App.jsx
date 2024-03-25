@@ -47,6 +47,7 @@ function App() {
             alt={country.name.common}
             style={imageStyle}
           />
+          <h2>{country.name.common}</h2>
         </div>
       ))}
     </div>
